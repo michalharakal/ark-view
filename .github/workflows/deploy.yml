@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Build KMP Project
-        run: ./gradlew :composeApp:jsBrowserProductionWebpack
+        run: ./gradlew :composeApp:wasmJsBrowserProductionWebpack
 
       - name: Build Docker image
         run: |
