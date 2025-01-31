@@ -40,6 +40,6 @@ jobs:
 
       - name: Build and Push Docker image
         run: |
-          version=$(grep '^version=' $module/gradle.properties | awk -F= '{print $2}')
+          version=$(grep '^version=' gradle.properties | awk -F= '{print $2}')
           docker build -t ghcr.io/michalharakal/ark-view:$version .
           docker push ghcr.io/michalharakal/ark-view:$version
