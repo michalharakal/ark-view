@@ -44,4 +44,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push michalharakal/ark-view:latest
+          docker push ghcr.io/michalharakal/ark-view:latest
