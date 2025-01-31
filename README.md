@@ -6,6 +6,16 @@ The Ark View is an attempt of Kotlin Multiplatform Port of LMOS official UI appl
 
 ![Screenshot Android](screenshot_android.png)
 
+## Build and Run
+
+### Docker 
+
+Start ngnix server hosting wasm application:
+
+```shell
+docker run --rm -p 8080:80 ghcr.io/michalharakal/ark-view
+```
+
 ## Code of Conduct
 
 This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) in version 2.1 as our code of conduct. Please see the details in our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). All contributors must abide by the code of conduct.
