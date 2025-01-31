@@ -1,42 +1,10 @@
-[![CI Build](https://github.com/eclipse-lmos/arc-view/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/eclipse-lmos/arc-view/actions/workflows/build.yml)
-[![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+# Ark View
 
-# Arc View
+The Ark View is an attempt of Kotlin Multiplatform Port of LMOS official UI application for communicating with an Arc Agent service (see original project for details [arc-view](https://github.com/eclipse-lmos/arc-view/tree/main).
 
-The Arc View is a UI application for communicating with an Arc Agent service.
+![Screenshot web](screenshot.png)
 
-The App is currently implemented to use the ARC Agent Graphql Endpoint described here https://eclipse-lmos.github.io/arc/docs/graphql.
-
-![Screenshot](screenshot.png)
-
-The application is written in Flutter.
-
-Uses: https://riverpod.dev/de/
-
-## Setup
-
-- Install Flutter -> https://docs.flutter.dev/get-started/install
-- Run App
- ```
- flutter run 
-```
-
-## Development
-
-Run the following command to ensure that code generation is active:
-
-```
-dart run build_runner watch
-```
-
-## Build
-
-Run the following command to build the app for the web:
-
-```
-flutter build web --wasm --base-href=/chat/
-```
+![Screenshot Android](screenshot_android.png)
 
 ## Code of Conduct
 

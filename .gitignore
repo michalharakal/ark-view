@@ -33,6 +33,13 @@ migrate_working_dir/
 .pub/
 /build/
 
+## Gradle
+ local.properties
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin
+
 # Symbolication related
 app.*.symbols
 
