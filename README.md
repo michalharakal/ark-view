@@ -13,8 +13,10 @@ The Ark View is an attempt of Kotlin Multiplatform Port of LMOS official UI appl
 Start ngnix server hosting wasm application:
 
 ```shell
-docker run --rm -p 8080:80 ghcr.io/michalharakal/ark-view
+docker run -p 8090:80 ghcr.io/michalharakal/ark-view:0.0.1
 ```
+
+open browser : ```http://localhost:8090```
 
 ## Code of Conduct
 
